@@ -1,0 +1,117 @@
+
+body {
+     background: white; 
+     color: #b8b0b0;
+     font-family: 'Cormorant Garamond', serif;
+     font-weight: 300;
+     font-size: 17px;
+     line-height: 1.0;
+}
+
+h1 {
+     font-family: Times, serif;
+     color: pink;
+     letter-spacing: 10px;
+     font-size: 29px;
+     text-align: center;
+}
+
+h2 { 
+     font-family: 'Playfair Display SC', serif;
+     font-weight: 700;
+     font-size: 22px;
+     color: #201E1E;
+}
+
+h3 {
+     font-family: 'Playfair Display SC', serif;
+     font-weight: 400;
+     font-style: italic;
+     font-size: 16px;
+     color: white;
+     letter-spacing: 3px;
+}
+
+a {
+     text-decoration: none;
+     color: pink;
+     font-family: 'Cormorant Garamond', serif;
+     font-weight: 500;
+     font-style: italic;
+     position: relative;
+}
+
+a:hover {
+     color: black;
+}
+
+.box-pink {
+	 background: #ffc1cc;
+     width: 700px;
+     padding-bottom: 2px;
+     padding-top: 2px;
+     margin: 30px auto;
+}
+
+@media (max-width: 760px) {
+	.box-pink {
+		width: 450px;
+	}
+}
+
+@media (max-width: 500px) {
+	.box-pink {
+		width: 400px;
+	}
+}
+
+#box-grey-1 {
+	 align-items: center;
+}
+
+#profile-circular {
+	 display: flex;
+	 text-align: center;
+	 border-radius: 50%;
+}
+
+#link-1 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.box-grey {
+	 background: #5A5454;
+     padding: 7px;
+     padding-right: 10px;
+     padding-left: 10px;
+     border-radius: 4px;
+     box-shadow: rgba(0, 0, 0, .1);
+     width: 400px;
+     margin: 20px auto;
+}
+
+#box-grey-2:hover {
+	background: #FFCEDC;
+}
+
+.list-inline li {
+	display: inline-block;
+	float: left;
+	list-style-type: none;
+	width: auto;
+	padding-right: 10%;
+	margin-right: 0.5%;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+#twitter-icon {
+	font-size: 20px;
+}
+
+#linkedin-icon {
+	font-size: 20px;
+}
